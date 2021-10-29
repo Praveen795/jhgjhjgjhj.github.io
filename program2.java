@@ -6,7 +6,7 @@ public class pravinp {
 		
 		for(int i=2; i<99; i+=1;) {
 			
-			for(int j=2; j<i/2; j+=1;) {
+			for(int j=2; j<i; j+=1;) {
 				
 				if(i%j!=0) {
 					count=count+1;
@@ -14,11 +14,11 @@ public class pravinp {
 				}
 				
 			}
-			if(count==0){
-				System.out.println(i)
 			
 		}
-
+		if(count==0) {
+			System.out.print(i);
+		}
 		
 		
 	}
